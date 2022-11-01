@@ -4,4 +4,9 @@
 
 
 
-![Cloud Alter Text GIF](https://github.com/AlbnRdzMdz/Rest_API_FLASK_UDEMY/blob/master/imagenesRepo/gifRestAPI.gif)
+![Cloud Alter Text IMAGEN](https://github.com/AlbnRdzMdz/Rest_API_FLASK_UDEMY/blob/master/imagenesRepo/gifRestAPI.gif)
+
+
+
+
+![Cloud GIF](https://github.com/AlbnRdzMdz/Rest_API_FLASK_UDEMY/blob/master/imagenesRepo/network.gif)
