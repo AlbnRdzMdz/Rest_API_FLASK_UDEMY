@@ -7,6 +7,9 @@ from flask_jwt_extended import JWTManager
 #Vamos a importar el módulo para hacer las miagraciones de la base de datos
 #Esto nos permite hacer modificaciones a nuestros modelos y tablas en la base de datos sin arriesgar la infromación
 
+
+#Modificaciones
+
 from flask_migrate import Migrate
 
 
