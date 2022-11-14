@@ -1,3 +1,4 @@
+.env
 .venvFlask
 .vscode
 __pycache__

@@ -1,3 +1,4 @@
+from audioop import lin2adpcm
 from flask import Flask,request
 import os
 from flask_smorest import Api
@@ -7,6 +8,7 @@ from flask_jwt_extended import JWTManager
 #Vamos a importar el módulo para hacer las miagraciones de la base de datos
 #Esto nos permite hacer modificaciones a nuestros modelos y tablas en la base de datos sin arriesgar la infromación
 
+from dotenv import load_dotenv
 
 #Modificaciones
 
@@ -41,6 +43,7 @@ def create_app(db_url=None):
     #Ahora,no queremos cambiar la llave cada vez que reiniciemos la app
     #por lo que ejecutamos dicho método en terminal y usamos el número generado como llave
     
+    load_dotenv()
     app.config["JWT_SECRET_KEY"]="1200654314856573955517327440138917444"#128 bits de ongitud
 
     
